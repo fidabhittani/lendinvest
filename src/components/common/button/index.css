@@ -1,0 +1,16 @@
+.lend-invest-btn > button {
+    background-color: #fae833;
+    text-transform: uppercase;
+    color: #877c3c;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid #ded9d9;
+    outline: none;
+    cursor: pointer;
+}
+
+button.lend-invest-btn > button:hover{
+    background-color: #ffe90f54;
+    cursor:pointer;
+    color: #000;
+}

@@ -1,0 +1,20 @@
+.lend-invest{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 10px 10em;
+}
+
+.lend-invest > .lend-invest-item{
+    margin: 10px 0px;
+
+}
+
+.lend-invest-action{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+

@@ -1,0 +1,13 @@
+.lendinvest-app{
+
+  display: flex;
+
+  justify-content: flex-start;
+
+  align-items: center;
+
+  padding: 0px 20em;
+
+  flex-direction: column;
+
+}
