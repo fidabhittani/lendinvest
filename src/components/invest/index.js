@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { Card, Typography, message } from "antd";
+import { Card, Typography, message, Space } from "antd";
 
 import { useSelector, useDispatch } from "react-redux";
 import { setInvest } from "redux/actions";
@@ -56,16 +56,20 @@ const Invest = () => {
       {data.map((loan) => {
         return (
           <Card title={loan.title} key={loan.id} className="lend-invest-item">
-            <div>
-              <Text>Amount : </Text>
-              <Text type="secondary">£ {loan.amount}</Text>
-            </div>
+            <div className="lend-invest-item-list">
+              <Space direction="vertical">
+                <Space>
+                  <Text>Amount : </Text>
+                  <Text type="secondary">£ {loan.amount}</Text>
+                </Space>
+                <Space>
+                  <Text>Available : </Text>
+                  <Text type="secondary">£ {loan.available}</Text>
+                </Space>
+              </Space>
 
-            <div>
-              <Text>Available : </Text>
-              <Text type="secondary">£ {loan.available}</Text>
+              {loan.invested && <Text type="success">Invested</Text>}
             </div>
-
             <div className="lend-invest-action">
               <LendButton onClick={() => startInvest(loan)} text={"invest"} />
             </div>

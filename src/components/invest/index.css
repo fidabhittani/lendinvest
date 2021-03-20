@@ -22,3 +22,10 @@
     height: 48px;
     line-height: 48px  !important;
 }
+.lend-invest-item-list{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10em;
+}
