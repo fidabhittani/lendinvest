@@ -27,7 +27,6 @@ export const findPercentages = (data) => {
   const investedAmount = totalAmount - totalAvailableAmount;
   const investedPercentage = (investedAmount / totalAmount) * 100;
   const availablePercentage = (totalAvailableAmount / totalAmount) * 100;
-
   return {
     investedPercentage,
     availablePercentage,

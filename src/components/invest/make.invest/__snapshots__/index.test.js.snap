@@ -1,0 +1,2110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: MakeInvestment renders correctly 1`] = `
+<MakeInvestment
+  loan={
+    Object {
+      "amount": "85,754",
+      "annualised_return": "8.60",
+      "available": "11,959",
+      "id": "1",
+      "ltv": "48.80",
+      "term_remaining": "864000",
+      "title": "Voluptate et sed tempora qui quisquam.",
+      "tranche": "A",
+    }
+  }
+>
+  <Modal
+    closable={true}
+    confirmLoading={false}
+    footer={null}
+    okType="primary"
+    title="Invest In Loan"
+    visible={true}
+    width={520}
+  >
+    <Dialog
+      closable={true}
+      closeIcon={
+        <span
+          className="ant-modal-close-x"
+        >
+          <ForwardRef(CloseOutlined)
+            className="ant-modal-close-icon"
+          />
+        </span>
+      }
+      confirmLoading={false}
+      focusTriggerAfterClose={true}
+      footer={null}
+      maskTransitionName="ant-fade"
+      okType="primary"
+      onClose={[Function]}
+      prefixCls="ant-modal"
+      title="Invest In Loan"
+      transitionName="ant-zoom"
+      visible={true}
+      width={520}
+      wrapClassName=""
+    >
+      <PortalWrapper
+        visible={true}
+      >
+        <ForwardRef
+          getContainer={[Function]}
+        >
+          <Portal
+            containerInfo={
+              <div>
+                <div
+                  class="ant-modal-root"
+                >
+                  <div
+                    class="ant-modal-mask"
+                  />
+                  <div
+                    aria-labelledby="rcDialogTitle0"
+                    class="ant-modal-wrap"
+                    role="dialog"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ant-modal"
+                      role="document"
+                      style="width: 520px;"
+                    >
+                      <div
+                        aria-hidden="true"
+                        style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+                        tabindex="0"
+                      />
+                      <div
+                        class="ant-modal-content"
+                      >
+                        <button
+                          aria-label="Close"
+                          class="ant-modal-close"
+                          type="button"
+                        >
+                          <span
+                            class="ant-modal-close-x"
+                          >
+                            <span
+                              aria-label="close"
+                              class="anticon anticon-close ant-modal-close-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="close"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </button>
+                        <div
+                          class="ant-modal-header"
+                        >
+                          <div
+                            class="ant-modal-title"
+                            id="rcDialogTitle0"
+                          >
+                            Invest In Loan
+                          </div>
+                        </div>
+                        <div
+                          class="ant-modal-body"
+                        >
+                          <div
+                            class="ant-space ant-space-vertical"
+                          >
+                            <div
+                              class="ant-space-item"
+                              style="margin-bottom: 8px;"
+                            >
+                              <span
+                                class="ant-typography"
+                              >
+                                <strong>
+                                  Voluptate et sed tempora qui quisquam.
+                                </strong>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-space-item"
+                              style="margin-bottom: 8px;"
+                            >
+                              <div
+                                class="ant-space ant-space-horizontal ant-space-align-center"
+                              >
+                                <div
+                                  class="ant-space-item"
+                                  style="margin-right: 8px;"
+                                >
+                                  <span
+                                    class="ant-typography"
+                                  >
+                                    Total : 
+                                  </span>
+                                </div>
+                                <div
+                                  class="ant-space-item"
+                                >
+                                  <span
+                                    class="ant-typography ant-typography-secondary"
+                                  >
+                                    £ 
+                                    85,754
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ant-space-item"
+                              style="margin-bottom: 8px;"
+                            >
+                              <div
+                                class="ant-space ant-space-horizontal ant-space-align-center"
+                              >
+                                <div
+                                  class="ant-space-item"
+                                  style="margin-right: 8px;"
+                                >
+                                  <span
+                                    class="ant-typography"
+                                  >
+                                    Available : 
+                                  </span>
+                                </div>
+                                <div
+                                  class="ant-space-item"
+                                >
+                                  <span
+                                    class="ant-typography ant-typography-secondary"
+                                  >
+                                    £ 
+                                    11,959
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ant-space-item"
+                            >
+                              <form
+                                class="ant-form ant-form-inline"
+                              >
+                                <div
+                                  class="ant-row ant-form-item"
+                                >
+                                  <div
+                                    class="ant-col ant-form-item-control"
+                                  >
+                                    <div
+                                      class="ant-form-item-control-input"
+                                    >
+                                      <div
+                                        class="ant-form-item-control-input-content"
+                                      >
+                                        <div
+                                          class="ant-input-number ant-input-number-lg lendinvest-input"
+                                          style="width: 100%;"
+                                        >
+                                          <div
+                                            class="ant-input-number-handler-wrap"
+                                          >
+                                            <span
+                                              aria-disabled="false"
+                                              aria-label="Increase Value"
+                                              class="ant-input-number-handler ant-input-number-handler-up"
+                                              role="button"
+                                              unselectable="on"
+                                            >
+                                              <span
+                                                aria-label="up"
+                                                class="anticon anticon-up ant-input-number-handler-up-inner"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="up"
+                                                  fill="currentColor"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </span>
+                                            <span
+                                              aria-disabled="false"
+                                              aria-label="Decrease Value"
+                                              class="ant-input-number-handler ant-input-number-handler-down"
+                                              role="button"
+                                              unselectable="on"
+                                            >
+                                              <span
+                                                aria-label="down"
+                                                class="anticon anticon-down ant-input-number-handler-down-inner"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="down"
+                                                  fill="currentColor"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </span>
+                                          </div>
+                                          <div
+                                            class="ant-input-number-input-wrap"
+                                          >
+                                            <input
+                                              autocomplete="off"
+                                              class="ant-input-number-input"
+                                              id="investAmount"
+                                              placeholder="Enter investment amount"
+                                              role="spinbutton"
+                                              step="1"
+                                              value=""
+                                            />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="ant-row ant-form-item"
+                                >
+                                  <div
+                                    class="ant-col ant-form-item-control"
+                                  >
+                                    <div
+                                      class="ant-form-item-control-input"
+                                    >
+                                      <div
+                                        class="ant-form-item-control-input-content"
+                                      >
+                                        <div
+                                          class="lend-invest-btn"
+                                        >
+                                          <button>
+                                            invest
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        aria-hidden="true"
+                        style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+                        tabindex="0"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            }
+          >
+            <Dialog
+              afterClose={[Function]}
+              closable={true}
+              closeIcon={
+                <span
+                  className="ant-modal-close-x"
+                >
+                  <ForwardRef(CloseOutlined)
+                    className="ant-modal-close-icon"
+                  />
+                </span>
+              }
+              confirmLoading={false}
+              destroyOnClose={false}
+              focusTriggerAfterClose={true}
+              footer={null}
+              getContainer={[Function]}
+              getOpenCount={[Function]}
+              maskTransitionName="ant-fade"
+              okType="primary"
+              onClose={[Function]}
+              prefixCls="ant-modal"
+              scrollLocker={
+                ScrollLocker {
+                  "getContainer": [Function],
+                  "lock": [Function],
+                  "lockTarget": 0,
+                  "options": Object {
+                    "container": <body
+                      class="ant-scrolling-effect"
+                      style="width: calc(100% - 0px); overflow: hidden; overflow-x: hidden; overflow-y: hidden;"
+                    >
+                      <div>
+                        <div
+                          class="ant-modal-root"
+                        >
+                          <div
+                            class="ant-modal-mask"
+                          />
+                          <div
+                            aria-labelledby="rcDialogTitle0"
+                            class="ant-modal-wrap"
+                            role="dialog"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="ant-modal"
+                              role="document"
+                              style="width: 520px;"
+                            >
+                              <div
+                                aria-hidden="true"
+                                style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+                                tabindex="0"
+                              />
+                              <div
+                                class="ant-modal-content"
+                              >
+                                <button
+                                  aria-label="Close"
+                                  class="ant-modal-close"
+                                  type="button"
+                                >
+                                  <span
+                                    class="ant-modal-close-x"
+                                  >
+                                    <span
+                                      aria-label="close"
+                                      class="anticon anticon-close ant-modal-close-icon"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="close"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="64 64 896 896"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </button>
+                                <div
+                                  class="ant-modal-header"
+                                >
+                                  <div
+                                    class="ant-modal-title"
+                                    id="rcDialogTitle0"
+                                  >
+                                    Invest In Loan
+                                  </div>
+                                </div>
+                                <div
+                                  class="ant-modal-body"
+                                >
+                                  <div
+                                    class="ant-space ant-space-vertical"
+                                  >
+                                    <div
+                                      class="ant-space-item"
+                                      style="margin-bottom: 8px;"
+                                    >
+                                      <span
+                                        class="ant-typography"
+                                      >
+                                        <strong>
+                                          Voluptate et sed tempora qui quisquam.
+                                        </strong>
+                                      </span>
+                                    </div>
+                                    <div
+                                      class="ant-space-item"
+                                      style="margin-bottom: 8px;"
+                                    >
+                                      <div
+                                        class="ant-space ant-space-horizontal ant-space-align-center"
+                                      >
+                                        <div
+                                          class="ant-space-item"
+                                          style="margin-right: 8px;"
+                                        >
+                                          <span
+                                            class="ant-typography"
+                                          >
+                                            Total : 
+                                          </span>
+                                        </div>
+                                        <div
+                                          class="ant-space-item"
+                                        >
+                                          <span
+                                            class="ant-typography ant-typography-secondary"
+                                          >
+                                            £ 
+                                            85,754
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="ant-space-item"
+                                      style="margin-bottom: 8px;"
+                                    >
+                                      <div
+                                        class="ant-space ant-space-horizontal ant-space-align-center"
+                                      >
+                                        <div
+                                          class="ant-space-item"
+                                          style="margin-right: 8px;"
+                                        >
+                                          <span
+                                            class="ant-typography"
+                                          >
+                                            Available : 
+                                          </span>
+                                        </div>
+                                        <div
+                                          class="ant-space-item"
+                                        >
+                                          <span
+                                            class="ant-typography ant-typography-secondary"
+                                          >
+                                            £ 
+                                            11,959
+                                          </span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="ant-space-item"
+                                    >
+                                      <form
+                                        class="ant-form ant-form-inline"
+                                      >
+                                        <div
+                                          class="ant-row ant-form-item"
+                                        >
+                                          <div
+                                            class="ant-col ant-form-item-control"
+                                          >
+                                            <div
+                                              class="ant-form-item-control-input"
+                                            >
+                                              <div
+                                                class="ant-form-item-control-input-content"
+                                              >
+                                                <div
+                                                  class="ant-input-number ant-input-number-lg lendinvest-input"
+                                                  style="width: 100%;"
+                                                >
+                                                  <div
+                                                    class="ant-input-number-handler-wrap"
+                                                  >
+                                                    <span
+                                                      aria-disabled="false"
+                                                      aria-label="Increase Value"
+                                                      class="ant-input-number-handler ant-input-number-handler-up"
+                                                      role="button"
+                                                      unselectable="on"
+                                                    >
+                                                      <span
+                                                        aria-label="up"
+                                                        class="anticon anticon-up ant-input-number-handler-up-inner"
+                                                        role="img"
+                                                      >
+                                                        <svg
+                                                          aria-hidden="true"
+                                                          data-icon="up"
+                                                          fill="currentColor"
+                                                          focusable="false"
+                                                          height="1em"
+                                                          viewBox="64 64 896 896"
+                                                          width="1em"
+                                                        >
+                                                          <path
+                                                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                                          />
+                                                        </svg>
+                                                      </span>
+                                                    </span>
+                                                    <span
+                                                      aria-disabled="false"
+                                                      aria-label="Decrease Value"
+                                                      class="ant-input-number-handler ant-input-number-handler-down"
+                                                      role="button"
+                                                      unselectable="on"
+                                                    >
+                                                      <span
+                                                        aria-label="down"
+                                                        class="anticon anticon-down ant-input-number-handler-down-inner"
+                                                        role="img"
+                                                      >
+                                                        <svg
+                                                          aria-hidden="true"
+                                                          data-icon="down"
+                                                          fill="currentColor"
+                                                          focusable="false"
+                                                          height="1em"
+                                                          viewBox="64 64 896 896"
+                                                          width="1em"
+                                                        >
+                                                          <path
+                                                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                                          />
+                                                        </svg>
+                                                      </span>
+                                                    </span>
+                                                  </div>
+                                                  <div
+                                                    class="ant-input-number-input-wrap"
+                                                  >
+                                                    <input
+                                                      autocomplete="off"
+                                                      class="ant-input-number-input"
+                                                      id="investAmount"
+                                                      placeholder="Enter investment amount"
+                                                      role="spinbutton"
+                                                      step="1"
+                                                      value=""
+                                                    />
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="ant-row ant-form-item"
+                                        >
+                                          <div
+                                            class="ant-col ant-form-item-control"
+                                          >
+                                            <div
+                                              class="ant-form-item-control-input"
+                                            >
+                                              <div
+                                                class="ant-form-item-control-input-content"
+                                              >
+                                                <div
+                                                  class="lend-invest-btn"
+                                                >
+                                                  <button>
+                                                    invest
+                                                  </button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-hidden="true"
+                                style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+                                tabindex="0"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </body>,
+                  },
+                  "reLock": [Function],
+                  "unLock": [Function],
+                }
+              }
+              switchScrollingEffect={[Function]}
+              title="Invest In Loan"
+              transitionName="ant-zoom"
+              visible={true}
+              width={520}
+              wrapClassName=""
+            >
+              <div
+                className="ant-modal-root"
+              >
+                <Mask
+                  motionName="ant-fade"
+                  prefixCls="ant-modal"
+                  style={
+                    Object {
+                      "zIndex": undefined,
+                    }
+                  }
+                  visible={true}
+                >
+                  <CSSMotion
+                    key="mask"
+                    leavedClassName="ant-modal-mask-hidden"
+                    motionName="ant-fade"
+                    visible={true}
+                  >
+                    <DomWrapper>
+                      <div
+                        className="ant-modal-mask"
+                        style={
+                          Object {
+                            "zIndex": undefined,
+                          }
+                        }
+                      />
+                    </DomWrapper>
+                  </CSSMotion>
+                </Mask>
+                <div
+                  aria-labelledby="rcDialogTitle0"
+                  className="ant-modal-wrap"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="dialog"
+                  style={
+                    Object {
+                      "display": null,
+                      "zIndex": undefined,
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <Content
+                    afterClose={[Function]}
+                    ariaId="rcDialogTitle0"
+                    closable={true}
+                    closeIcon={
+                      <span
+                        className="ant-modal-close-x"
+                      >
+                        <ForwardRef(CloseOutlined)
+                          className="ant-modal-close-icon"
+                        />
+                      </span>
+                    }
+                    confirmLoading={false}
+                    destroyOnClose={false}
+                    focusTriggerAfterClose={true}
+                    footer={null}
+                    getContainer={[Function]}
+                    getOpenCount={[Function]}
+                    maskTransitionName="ant-fade"
+                    motionName="ant-zoom"
+                    okType="primary"
+                    onClose={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseUp={[Function]}
+                    onVisibleChanged={[Function]}
+                    prefixCls="ant-modal"
+                    scrollLocker={
+                      ScrollLocker {
+                        "getContainer": [Function],
+                        "lock": [Function],
+                        "lockTarget": 0,
+                        "options": Object {
+                          "container": <body
+                            class="ant-scrolling-effect"
+                            style="width: calc(100% - 0px); overflow: hidden; overflow-x: hidden; overflow-y: hidden;"
+                          >
+                            <div>
+                              <div
+                                class="ant-modal-root"
+                              >
+                                <div
+                                  class="ant-modal-mask"
+                                />
+                                <div
+                                  aria-labelledby="rcDialogTitle0"
+                                  class="ant-modal-wrap"
+                                  role="dialog"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ant-modal"
+                                    role="document"
+                                    style="width: 520px;"
+                                  >
+                                    <div
+                                      aria-hidden="true"
+                                      style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+                                      tabindex="0"
+                                    />
+                                    <div
+                                      class="ant-modal-content"
+                                    >
+                                      <button
+                                        aria-label="Close"
+                                        class="ant-modal-close"
+                                        type="button"
+                                      >
+                                        <span
+                                          class="ant-modal-close-x"
+                                        >
+                                          <span
+                                            aria-label="close"
+                                            class="anticon anticon-close ant-modal-close-icon"
+                                            role="img"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              data-icon="close"
+                                              fill="currentColor"
+                                              focusable="false"
+                                              height="1em"
+                                              viewBox="64 64 896 896"
+                                              width="1em"
+                                            >
+                                              <path
+                                                d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+                                              />
+                                            </svg>
+                                          </span>
+                                        </span>
+                                      </button>
+                                      <div
+                                        class="ant-modal-header"
+                                      >
+                                        <div
+                                          class="ant-modal-title"
+                                          id="rcDialogTitle0"
+                                        >
+                                          Invest In Loan
+                                        </div>
+                                      </div>
+                                      <div
+                                        class="ant-modal-body"
+                                      >
+                                        <div
+                                          class="ant-space ant-space-vertical"
+                                        >
+                                          <div
+                                            class="ant-space-item"
+                                            style="margin-bottom: 8px;"
+                                          >
+                                            <span
+                                              class="ant-typography"
+                                            >
+                                              <strong>
+                                                Voluptate et sed tempora qui quisquam.
+                                              </strong>
+                                            </span>
+                                          </div>
+                                          <div
+                                            class="ant-space-item"
+                                            style="margin-bottom: 8px;"
+                                          >
+                                            <div
+                                              class="ant-space ant-space-horizontal ant-space-align-center"
+                                            >
+                                              <div
+                                                class="ant-space-item"
+                                                style="margin-right: 8px;"
+                                              >
+                                                <span
+                                                  class="ant-typography"
+                                                >
+                                                  Total : 
+                                                </span>
+                                              </div>
+                                              <div
+                                                class="ant-space-item"
+                                              >
+                                                <span
+                                                  class="ant-typography ant-typography-secondary"
+                                                >
+                                                  £ 
+                                                  85,754
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div
+                                            class="ant-space-item"
+                                            style="margin-bottom: 8px;"
+                                          >
+                                            <div
+                                              class="ant-space ant-space-horizontal ant-space-align-center"
+                                            >
+                                              <div
+                                                class="ant-space-item"
+                                                style="margin-right: 8px;"
+                                              >
+                                                <span
+                                                  class="ant-typography"
+                                                >
+                                                  Available : 
+                                                </span>
+                                              </div>
+                                              <div
+                                                class="ant-space-item"
+                                              >
+                                                <span
+                                                  class="ant-typography ant-typography-secondary"
+                                                >
+                                                  £ 
+                                                  11,959
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div
+                                            class="ant-space-item"
+                                          >
+                                            <form
+                                              class="ant-form ant-form-inline"
+                                            >
+                                              <div
+                                                class="ant-row ant-form-item"
+                                              >
+                                                <div
+                                                  class="ant-col ant-form-item-control"
+                                                >
+                                                  <div
+                                                    class="ant-form-item-control-input"
+                                                  >
+                                                    <div
+                                                      class="ant-form-item-control-input-content"
+                                                    >
+                                                      <div
+                                                        class="ant-input-number ant-input-number-lg lendinvest-input"
+                                                        style="width: 100%;"
+                                                      >
+                                                        <div
+                                                          class="ant-input-number-handler-wrap"
+                                                        >
+                                                          <span
+                                                            aria-disabled="false"
+                                                            aria-label="Increase Value"
+                                                            class="ant-input-number-handler ant-input-number-handler-up"
+                                                            role="button"
+                                                            unselectable="on"
+                                                          >
+                                                            <span
+                                                              aria-label="up"
+                                                              class="anticon anticon-up ant-input-number-handler-up-inner"
+                                                              role="img"
+                                                            >
+                                                              <svg
+                                                                aria-hidden="true"
+                                                                data-icon="up"
+                                                                fill="currentColor"
+                                                                focusable="false"
+                                                                height="1em"
+                                                                viewBox="64 64 896 896"
+                                                                width="1em"
+                                                              >
+                                                                <path
+                                                                  d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                                                />
+                                                              </svg>
+                                                            </span>
+                                                          </span>
+                                                          <span
+                                                            aria-disabled="false"
+                                                            aria-label="Decrease Value"
+                                                            class="ant-input-number-handler ant-input-number-handler-down"
+                                                            role="button"
+                                                            unselectable="on"
+                                                          >
+                                                            <span
+                                                              aria-label="down"
+                                                              class="anticon anticon-down ant-input-number-handler-down-inner"
+                                                              role="img"
+                                                            >
+                                                              <svg
+                                                                aria-hidden="true"
+                                                                data-icon="down"
+                                                                fill="currentColor"
+                                                                focusable="false"
+                                                                height="1em"
+                                                                viewBox="64 64 896 896"
+                                                                width="1em"
+                                                              >
+                                                                <path
+                                                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                                                />
+                                                              </svg>
+                                                            </span>
+                                                          </span>
+                                                        </div>
+                                                        <div
+                                                          class="ant-input-number-input-wrap"
+                                                        >
+                                                          <input
+                                                            autocomplete="off"
+                                                            class="ant-input-number-input"
+                                                            id="investAmount"
+                                                            placeholder="Enter investment amount"
+                                                            role="spinbutton"
+                                                            step="1"
+                                                            value=""
+                                                          />
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div
+                                                class="ant-row ant-form-item"
+                                              >
+                                                <div
+                                                  class="ant-col ant-form-item-control"
+                                                >
+                                                  <div
+                                                    class="ant-form-item-control-input"
+                                                  >
+                                                    <div
+                                                      class="ant-form-item-control-input-content"
+                                                    >
+                                                      <div
+                                                        class="lend-invest-btn"
+                                                      >
+                                                        <button>
+                                                          invest
+                                                        </button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </form>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      aria-hidden="true"
+                                      style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+                                      tabindex="0"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </body>,
+                        },
+                        "reLock": [Function],
+                        "unLock": [Function],
+                      }
+                    }
+                    switchScrollingEffect={[Function]}
+                    title="Invest In Loan"
+                    transitionName="ant-zoom"
+                    visible={true}
+                    width={520}
+                    wrapClassName=""
+                  >
+                    <CSSMotion
+                      motionName="ant-zoom"
+                      onAppearPrepare={[Function]}
+                      onEnterPrepare={[Function]}
+                      onVisibleChanged={[Function]}
+                      removeOnLeave={false}
+                      visible={true}
+                    >
+                      <DomWrapper>
+                        <div
+                          className="ant-modal"
+                          key="dialog-element"
+                          onMouseDown={[Function]}
+                          onMouseUp={[Function]}
+                          role="document"
+                          style={
+                            Object {
+                              "width": 520,
+                            }
+                          }
+                        >
+                          <div
+                            aria-hidden="true"
+                            style={
+                              Object {
+                                "height": 0,
+                                "outline": "none",
+                                "overflow": "hidden",
+                                "width": 0,
+                              }
+                            }
+                            tabIndex={0}
+                          />
+                          <Component
+                            shouldUpdate={true}
+                          >
+                            <div
+                              className="ant-modal-content"
+                            >
+                              <button
+                                aria-label="Close"
+                                className="ant-modal-close"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                <span
+                                  className="ant-modal-close-x"
+                                >
+                                  <ForwardRef(CloseOutlined)
+                                    className="ant-modal-close-icon"
+                                  >
+                                    <AntdIcon
+                                      className="ant-modal-close-icon"
+                                      icon={
+                                        Object {
+                                          "icon": Object {
+                                            "attrs": Object {
+                                              "focusable": "false",
+                                              "viewBox": "64 64 896 896",
+                                            },
+                                            "children": Array [
+                                              Object {
+                                                "attrs": Object {
+                                                  "d": "M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z",
+                                                },
+                                                "tag": "path",
+                                              },
+                                            ],
+                                            "tag": "svg",
+                                          },
+                                          "name": "close",
+                                          "theme": "outlined",
+                                        }
+                                      }
+                                    >
+                                      <span
+                                        aria-label="close"
+                                        className="anticon anticon-close ant-modal-close-icon"
+                                        role="img"
+                                      >
+                                        <IconReact
+                                          icon={
+                                            Object {
+                                              "icon": Object {
+                                                "attrs": Object {
+                                                  "focusable": "false",
+                                                  "viewBox": "64 64 896 896",
+                                                },
+                                                "children": Array [
+                                                  Object {
+                                                    "attrs": Object {
+                                                      "d": "M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z",
+                                                    },
+                                                    "tag": "path",
+                                                  },
+                                                ],
+                                                "tag": "svg",
+                                              },
+                                              "name": "close",
+                                              "theme": "outlined",
+                                            }
+                                          }
+                                        >
+                                          <svg
+                                            aria-hidden="true"
+                                            data-icon="close"
+                                            fill="currentColor"
+                                            focusable="false"
+                                            height="1em"
+                                            key="svg-close"
+                                            viewBox="64 64 896 896"
+                                            width="1em"
+                                          >
+                                            <path
+                                              d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 00203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+                                              key="svg-close-svg-0"
+                                            />
+                                          </svg>
+                                        </IconReact>
+                                      </span>
+                                    </AntdIcon>
+                                  </ForwardRef(CloseOutlined)>
+                                </span>
+                              </button>
+                              <div
+                                className="ant-modal-header"
+                              >
+                                <div
+                                  className="ant-modal-title"
+                                  id="rcDialogTitle0"
+                                >
+                                  Invest In Loan
+                                </div>
+                              </div>
+                              <div
+                                className="ant-modal-body"
+                              >
+                                <Space
+                                  direction="vertical"
+                                >
+                                  <div
+                                    className="ant-space ant-space-vertical"
+                                    style={Object {}}
+                                  >
+                                    <Item
+                                      className="ant-space-item"
+                                      direction="vertical"
+                                      index={0}
+                                      key="ant-space-item-0"
+                                      marginDirection="marginRight"
+                                      wrap={false}
+                                    >
+                                      <div
+                                        className="ant-space-item"
+                                        style={
+                                          Object {
+                                            "marginBottom": 8,
+                                          }
+                                        }
+                                      >
+                                        <Text
+                                          strong={true}
+                                        >
+                                          <Base
+                                            component="span"
+                                            strong={true}
+                                          >
+                                            <LocaleReceiver
+                                              componentName="Text"
+                                            >
+                                              <ResizeObserver
+                                                disabled={true}
+                                                onResize={[Function]}
+                                              >
+                                                <Typography
+                                                  className=""
+                                                  component="span"
+                                                  style={
+                                                    Object {
+                                                      "WebkitLineClamp": undefined,
+                                                    }
+                                                  }
+                                                >
+                                                  <span
+                                                    className="ant-typography"
+                                                    style={
+                                                      Object {
+                                                        "WebkitLineClamp": undefined,
+                                                      }
+                                                    }
+                                                  >
+                                                    <strong>
+                                                      Voluptate et sed tempora qui quisquam.
+                                                    </strong>
+                                                  </span>
+                                                </Typography>
+                                              </ResizeObserver>
+                                            </LocaleReceiver>
+                                          </Base>
+                                        </Text>
+                                      </div>
+                                    </Item>
+                                    <Item
+                                      className="ant-space-item"
+                                      direction="vertical"
+                                      index={1}
+                                      key="ant-space-item-1"
+                                      marginDirection="marginRight"
+                                      wrap={false}
+                                    >
+                                      <div
+                                        className="ant-space-item"
+                                        style={
+                                          Object {
+                                            "marginBottom": 8,
+                                          }
+                                        }
+                                      >
+                                        <Space>
+                                          <div
+                                            className="ant-space ant-space-horizontal ant-space-align-center"
+                                            style={Object {}}
+                                          >
+                                            <Item
+                                              className="ant-space-item"
+                                              direction="horizontal"
+                                              index={0}
+                                              key="ant-space-item-0"
+                                              marginDirection="marginRight"
+                                              wrap={false}
+                                            >
+                                              <div
+                                                className="ant-space-item"
+                                                style={
+                                                  Object {
+                                                    "marginRight": 8,
+                                                  }
+                                                }
+                                              >
+                                                <Text>
+                                                  <Base
+                                                    component="span"
+                                                  >
+                                                    <LocaleReceiver
+                                                      componentName="Text"
+                                                    >
+                                                      <ResizeObserver
+                                                        disabled={true}
+                                                        onResize={[Function]}
+                                                      >
+                                                        <Typography
+                                                          className=""
+                                                          component="span"
+                                                          style={
+                                                            Object {
+                                                              "WebkitLineClamp": undefined,
+                                                            }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="ant-typography"
+                                                            style={
+                                                              Object {
+                                                                "WebkitLineClamp": undefined,
+                                                              }
+                                                            }
+                                                          >
+                                                            Total : 
+                                                          </span>
+                                                        </Typography>
+                                                      </ResizeObserver>
+                                                    </LocaleReceiver>
+                                                  </Base>
+                                                </Text>
+                                              </div>
+                                            </Item>
+                                            <Item
+                                              className="ant-space-item"
+                                              direction="horizontal"
+                                              index={1}
+                                              key="ant-space-item-1"
+                                              marginDirection="marginRight"
+                                              wrap={false}
+                                            >
+                                              <div
+                                                className="ant-space-item"
+                                                style={Object {}}
+                                              >
+                                                <Text
+                                                  type="secondary"
+                                                >
+                                                  <Base
+                                                    component="span"
+                                                    type="secondary"
+                                                  >
+                                                    <LocaleReceiver
+                                                      componentName="Text"
+                                                    >
+                                                      <ResizeObserver
+                                                        disabled={true}
+                                                        onResize={[Function]}
+                                                      >
+                                                        <Typography
+                                                          className="ant-typography-secondary"
+                                                          component="span"
+                                                          style={
+                                                            Object {
+                                                              "WebkitLineClamp": undefined,
+                                                            }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="ant-typography ant-typography-secondary"
+                                                            style={
+                                                              Object {
+                                                                "WebkitLineClamp": undefined,
+                                                              }
+                                                            }
+                                                          >
+                                                            £ 
+                                                            85,754
+                                                          </span>
+                                                        </Typography>
+                                                      </ResizeObserver>
+                                                    </LocaleReceiver>
+                                                  </Base>
+                                                </Text>
+                                              </div>
+                                            </Item>
+                                          </div>
+                                        </Space>
+                                      </div>
+                                    </Item>
+                                    <Item
+                                      className="ant-space-item"
+                                      direction="vertical"
+                                      index={2}
+                                      key="ant-space-item-2"
+                                      marginDirection="marginRight"
+                                      wrap={false}
+                                    >
+                                      <div
+                                        className="ant-space-item"
+                                        style={
+                                          Object {
+                                            "marginBottom": 8,
+                                          }
+                                        }
+                                      >
+                                        <Space>
+                                          <div
+                                            className="ant-space ant-space-horizontal ant-space-align-center"
+                                            style={Object {}}
+                                          >
+                                            <Item
+                                              className="ant-space-item"
+                                              direction="horizontal"
+                                              index={0}
+                                              key="ant-space-item-0"
+                                              marginDirection="marginRight"
+                                              wrap={false}
+                                            >
+                                              <div
+                                                className="ant-space-item"
+                                                style={
+                                                  Object {
+                                                    "marginRight": 8,
+                                                  }
+                                                }
+                                              >
+                                                <Text>
+                                                  <Base
+                                                    component="span"
+                                                  >
+                                                    <LocaleReceiver
+                                                      componentName="Text"
+                                                    >
+                                                      <ResizeObserver
+                                                        disabled={true}
+                                                        onResize={[Function]}
+                                                      >
+                                                        <Typography
+                                                          className=""
+                                                          component="span"
+                                                          style={
+                                                            Object {
+                                                              "WebkitLineClamp": undefined,
+                                                            }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="ant-typography"
+                                                            style={
+                                                              Object {
+                                                                "WebkitLineClamp": undefined,
+                                                              }
+                                                            }
+                                                          >
+                                                            Available : 
+                                                          </span>
+                                                        </Typography>
+                                                      </ResizeObserver>
+                                                    </LocaleReceiver>
+                                                  </Base>
+                                                </Text>
+                                              </div>
+                                            </Item>
+                                            <Item
+                                              className="ant-space-item"
+                                              direction="horizontal"
+                                              index={1}
+                                              key="ant-space-item-1"
+                                              marginDirection="marginRight"
+                                              wrap={false}
+                                            >
+                                              <div
+                                                className="ant-space-item"
+                                                style={Object {}}
+                                              >
+                                                <Text
+                                                  type="secondary"
+                                                >
+                                                  <Base
+                                                    component="span"
+                                                    type="secondary"
+                                                  >
+                                                    <LocaleReceiver
+                                                      componentName="Text"
+                                                    >
+                                                      <ResizeObserver
+                                                        disabled={true}
+                                                        onResize={[Function]}
+                                                      >
+                                                        <Typography
+                                                          className="ant-typography-secondary"
+                                                          component="span"
+                                                          style={
+                                                            Object {
+                                                              "WebkitLineClamp": undefined,
+                                                            }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="ant-typography ant-typography-secondary"
+                                                            style={
+                                                              Object {
+                                                                "WebkitLineClamp": undefined,
+                                                              }
+                                                            }
+                                                          >
+                                                            £ 
+                                                            11,959
+                                                          </span>
+                                                        </Typography>
+                                                      </ResizeObserver>
+                                                    </LocaleReceiver>
+                                                  </Base>
+                                                </Text>
+                                              </div>
+                                            </Item>
+                                          </div>
+                                        </Space>
+                                      </div>
+                                    </Item>
+                                    <Item
+                                      className="ant-space-item"
+                                      direction="vertical"
+                                      index={3}
+                                      key="ant-space-item-3"
+                                      marginDirection="marginRight"
+                                      wrap={false}
+                                    >
+                                      <div
+                                        className="ant-space-item"
+                                        style={Object {}}
+                                      >
+                                        <ForwardRef(InternalForm)
+                                          form={
+                                            Object {
+                                              "__INTERNAL__": Object {
+                                                "itemRef": [Function],
+                                                "name": undefined,
+                                              },
+                                              "getFieldError": [Function],
+                                              "getFieldInstance": [Function],
+                                              "getFieldValue": [Function],
+                                              "getFieldsError": [Function],
+                                              "getFieldsValue": [Function],
+                                              "getInternalHooks": [Function],
+                                              "isFieldTouched": [Function],
+                                              "isFieldValidating": [Function],
+                                              "isFieldsTouched": [Function],
+                                              "isFieldsValidating": [Function],
+                                              "resetFields": [Function],
+                                              "scrollToField": [Function],
+                                              "setFields": [Function],
+                                              "setFieldsValue": [Function],
+                                              "submit": [Function],
+                                              "validateFields": [Function],
+                                            }
+                                          }
+                                          layout="inline"
+                                        >
+                                          <SizeContextProvider>
+                                            <ForwardRef(Form)
+                                              className="ant-form ant-form-inline"
+                                              form={
+                                                Object {
+                                                  "__INTERNAL__": Object {
+                                                    "itemRef": [Function],
+                                                    "name": undefined,
+                                                  },
+                                                  "getFieldError": [Function],
+                                                  "getFieldInstance": [Function],
+                                                  "getFieldValue": [Function],
+                                                  "getFieldsError": [Function],
+                                                  "getFieldsValue": [Function],
+                                                  "getInternalHooks": [Function],
+                                                  "isFieldTouched": [Function],
+                                                  "isFieldValidating": [Function],
+                                                  "isFieldsTouched": [Function],
+                                                  "isFieldsValidating": [Function],
+                                                  "resetFields": [Function],
+                                                  "scrollToField": [Function],
+                                                  "setFields": [Function],
+                                                  "setFieldsValue": [Function],
+                                                  "submit": [Function],
+                                                  "validateFields": [Function],
+                                                }
+                                              }
+                                              onFinishFailed={[Function]}
+                                            >
+                                              <form
+                                                className="ant-form ant-form-inline"
+                                                onReset={[Function]}
+                                                onSubmit={[Function]}
+                                              >
+                                                <FormItem
+                                                  name="investAmount"
+                                                  rules={
+                                                    Array [
+                                                      Object {
+                                                        "message": "Investment amount required",
+                                                        "required": true,
+                                                      },
+                                                      Object {
+                                                        "max": 11959,
+                                                        "message": "Maximum available invest amount is 11,959",
+                                                        "type": "number",
+                                                      },
+                                                    ]
+                                                  }
+                                                >
+                                                  <WrapperField
+                                                    messageVariables={Object {}}
+                                                    name="investAmount"
+                                                    onReset={[Function]}
+                                                    rules={
+                                                      Array [
+                                                        Object {
+                                                          "message": "Investment amount required",
+                                                          "required": true,
+                                                        },
+                                                        Object {
+                                                          "max": 11959,
+                                                          "message": "Maximum available invest amount is 11,959",
+                                                          "type": "number",
+                                                        },
+                                                      ]
+                                                    }
+                                                    trigger="onChange"
+                                                    validateTrigger="onChange"
+                                                  >
+                                                    <Field
+                                                      fieldContext={
+                                                        Object {
+                                                          "__INTERNAL__": Object {
+                                                            "itemRef": [Function],
+                                                            "name": undefined,
+                                                          },
+                                                          "getFieldError": [Function],
+                                                          "getFieldInstance": [Function],
+                                                          "getFieldValue": [Function],
+                                                          "getFieldsError": [Function],
+                                                          "getFieldsValue": [Function],
+                                                          "getInternalHooks": [Function],
+                                                          "isFieldTouched": [Function],
+                                                          "isFieldValidating": [Function],
+                                                          "isFieldsTouched": [Function],
+                                                          "isFieldsValidating": [Function],
+                                                          "resetFields": [Function],
+                                                          "scrollToField": [Function],
+                                                          "setFields": [Function],
+                                                          "setFieldsValue": [Function],
+                                                          "submit": [Function],
+                                                          "validateFields": [Function],
+                                                          "validateTrigger": "onChange",
+                                                        }
+                                                      }
+                                                      key="_investAmount"
+                                                      messageVariables={Object {}}
+                                                      name={
+                                                        Array [
+                                                          "investAmount",
+                                                        ]
+                                                      }
+                                                      onReset={[Function]}
+                                                      rules={
+                                                        Array [
+                                                          Object {
+                                                            "message": "Investment amount required",
+                                                            "required": true,
+                                                          },
+                                                          Object {
+                                                            "max": 11959,
+                                                            "message": "Maximum available invest amount is 11,959",
+                                                            "type": "number",
+                                                          },
+                                                        ]
+                                                      }
+                                                      trigger="onChange"
+                                                      validateTrigger="onChange"
+                                                      valuePropName="value"
+                                                    >
+                                                      <Row
+                                                        className="ant-form-item"
+                                                        key="row"
+                                                      >
+                                                        <div
+                                                          className="ant-row ant-form-item"
+                                                          style={Object {}}
+                                                        >
+                                                          <FormItemLabel
+                                                            htmlFor="investAmount"
+                                                            name="investAmount"
+                                                            prefixCls="ant-form"
+                                                            required={true}
+                                                            requiredMark={true}
+                                                            rules={
+                                                              Array [
+                                                                Object {
+                                                                  "message": "Investment amount required",
+                                                                  "required": true,
+                                                                },
+                                                                Object {
+                                                                  "max": 11959,
+                                                                  "message": "Maximum available invest amount is 11,959",
+                                                                  "type": "number",
+                                                                },
+                                                              ]
+                                                            }
+                                                          />
+                                                          <FormItemInput
+                                                            errors={Array []}
+                                                            name={
+                                                              Array [
+                                                                "investAmount",
+                                                              ]
+                                                            }
+                                                            onDomErrorVisibleChange={[Function]}
+                                                            prefixCls="ant-form"
+                                                            rules={
+                                                              Array [
+                                                                Object {
+                                                                  "message": "Investment amount required",
+                                                                  "required": true,
+                                                                },
+                                                                Object {
+                                                                  "max": 11959,
+                                                                  "message": "Maximum available invest amount is 11,959",
+                                                                  "type": "number",
+                                                                },
+                                                              ]
+                                                            }
+                                                            status=""
+                                                            touched={false}
+                                                            validateStatus=""
+                                                            validating={false}
+                                                          >
+                                                            <Col
+                                                              className="ant-form-item-control"
+                                                            >
+                                                              <div
+                                                                className="ant-col ant-form-item-control"
+                                                                style={Object {}}
+                                                              >
+                                                                <div
+                                                                  className="ant-form-item-control-input"
+                                                                >
+                                                                  <div
+                                                                    className="ant-form-item-control-input-content"
+                                                                  >
+                                                                    <Component
+                                                                      update={1}
+                                                                    >
+                                                                      <ForwardRef
+                                                                        className="lendinvest-input"
+                                                                        id="investAmount"
+                                                                        onChange={[Function]}
+                                                                        placeholder="Enter investment amount"
+                                                                        size="large"
+                                                                        style={
+                                                                          Object {
+                                                                            "width": "100%",
+                                                                          }
+                                                                        }
+                                                                      >
+                                                                        <InputNumber
+                                                                          className="ant-input-number-lg lendinvest-input"
+                                                                          downHandler={
+                                                                            <ForwardRef(DownOutlined)
+                                                                              className="ant-input-number-handler-down-inner"
+                                                                            />
+                                                                          }
+                                                                          id="investAmount"
+                                                                          onChange={[Function]}
+                                                                          placeholder="Enter investment amount"
+                                                                          prefixCls="ant-input-number"
+                                                                          style={
+                                                                            Object {
+                                                                              "width": "100%",
+                                                                            }
+                                                                          }
+                                                                          upHandler={
+                                                                            <ForwardRef(UpOutlined)
+                                                                              className="ant-input-number-handler-up-inner"
+                                                                            />
+                                                                          }
+                                                                        >
+                                                                          <div
+                                                                            className="ant-input-number ant-input-number-lg lendinvest-input"
+                                                                            onBlur={[Function]}
+                                                                            onCompositionEnd={[Function]}
+                                                                            onCompositionStart={[Function]}
+                                                                            onFocus={[Function]}
+                                                                            onKeyDown={[Function]}
+                                                                            onKeyUp={[Function]}
+                                                                            style={
+                                                                              Object {
+                                                                                "width": "100%",
+                                                                              }
+                                                                            }
+                                                                          >
+                                                                            <StepHandler
+                                                                              downDisabled={false}
+                                                                              downNode={
+                                                                                <ForwardRef(DownOutlined)
+                                                                                  className="ant-input-number-handler-down-inner"
+                                                                                />
+                                                                              }
+                                                                              onStep={[Function]}
+                                                                              prefixCls="ant-input-number"
+                                                                              upDisabled={false}
+                                                                              upNode={
+                                                                                <ForwardRef(UpOutlined)
+                                                                                  className="ant-input-number-handler-up-inner"
+                                                                                />
+                                                                              }
+                                                                            >
+                                                                              <div
+                                                                                className="ant-input-number-handler-wrap"
+                                                                              >
+                                                                                <span
+                                                                                  aria-disabled={false}
+                                                                                  aria-label="Increase Value"
+                                                                                  className="ant-input-number-handler ant-input-number-handler-up"
+                                                                                  onMouseDown={[Function]}
+                                                                                  onMouseLeave={[Function]}
+                                                                                  onMouseUp={[Function]}
+                                                                                  role="button"
+                                                                                  unselectable="on"
+                                                                                >
+                                                                                  <ForwardRef(UpOutlined)
+                                                                                    className="ant-input-number-handler-up-inner"
+                                                                                  >
+                                                                                    <AntdIcon
+                                                                                      className="ant-input-number-handler-up-inner"
+                                                                                      icon={
+                                                                                        Object {
+                                                                                          "icon": Object {
+                                                                                            "attrs": Object {
+                                                                                              "focusable": "false",
+                                                                                              "viewBox": "64 64 896 896",
+                                                                                            },
+                                                                                            "children": Array [
+                                                                                              Object {
+                                                                                                "attrs": Object {
+                                                                                                  "d": "M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z",
+                                                                                                },
+                                                                                                "tag": "path",
+                                                                                              },
+                                                                                            ],
+                                                                                            "tag": "svg",
+                                                                                          },
+                                                                                          "name": "up",
+                                                                                          "theme": "outlined",
+                                                                                        }
+                                                                                      }
+                                                                                    >
+                                                                                      <span
+                                                                                        aria-label="up"
+                                                                                        className="anticon anticon-up ant-input-number-handler-up-inner"
+                                                                                        role="img"
+                                                                                      >
+                                                                                        <IconReact
+                                                                                          icon={
+                                                                                            Object {
+                                                                                              "icon": Object {
+                                                                                                "attrs": Object {
+                                                                                                  "focusable": "false",
+                                                                                                  "viewBox": "64 64 896 896",
+                                                                                                },
+                                                                                                "children": Array [
+                                                                                                  Object {
+                                                                                                    "attrs": Object {
+                                                                                                      "d": "M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z",
+                                                                                                    },
+                                                                                                    "tag": "path",
+                                                                                                  },
+                                                                                                ],
+                                                                                                "tag": "svg",
+                                                                                              },
+                                                                                              "name": "up",
+                                                                                              "theme": "outlined",
+                                                                                            }
+                                                                                          }
+                                                                                        >
+                                                                                          <svg
+                                                                                            aria-hidden="true"
+                                                                                            data-icon="up"
+                                                                                            fill="currentColor"
+                                                                                            focusable="false"
+                                                                                            height="1em"
+                                                                                            key="svg-up"
+                                                                                            viewBox="64 64 896 896"
+                                                                                            width="1em"
+                                                                                          >
+                                                                                            <path
+                                                                                              d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                                                                              key="svg-up-svg-0"
+                                                                                            />
+                                                                                          </svg>
+                                                                                        </IconReact>
+                                                                                      </span>
+                                                                                    </AntdIcon>
+                                                                                  </ForwardRef(UpOutlined)>
+                                                                                </span>
+                                                                                <span
+                                                                                  aria-disabled={false}
+                                                                                  aria-label="Decrease Value"
+                                                                                  className="ant-input-number-handler ant-input-number-handler-down"
+                                                                                  onMouseDown={[Function]}
+                                                                                  onMouseLeave={[Function]}
+                                                                                  onMouseUp={[Function]}
+                                                                                  role="button"
+                                                                                  unselectable="on"
+                                                                                >
+                                                                                  <ForwardRef(DownOutlined)
+                                                                                    className="ant-input-number-handler-down-inner"
+                                                                                  >
+                                                                                    <AntdIcon
+                                                                                      className="ant-input-number-handler-down-inner"
+                                                                                      icon={
+                                                                                        Object {
+                                                                                          "icon": Object {
+                                                                                            "attrs": Object {
+                                                                                              "focusable": "false",
+                                                                                              "viewBox": "64 64 896 896",
+                                                                                            },
+                                                                                            "children": Array [
+                                                                                              Object {
+                                                                                                "attrs": Object {
+                                                                                                  "d": "M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z",
+                                                                                                },
+                                                                                                "tag": "path",
+                                                                                              },
+                                                                                            ],
+                                                                                            "tag": "svg",
+                                                                                          },
+                                                                                          "name": "down",
+                                                                                          "theme": "outlined",
+                                                                                        }
+                                                                                      }
+                                                                                    >
+                                                                                      <span
+                                                                                        aria-label="down"
+                                                                                        className="anticon anticon-down ant-input-number-handler-down-inner"
+                                                                                        role="img"
+                                                                                      >
+                                                                                        <IconReact
+                                                                                          icon={
+                                                                                            Object {
+                                                                                              "icon": Object {
+                                                                                                "attrs": Object {
+                                                                                                  "focusable": "false",
+                                                                                                  "viewBox": "64 64 896 896",
+                                                                                                },
+                                                                                                "children": Array [
+                                                                                                  Object {
+                                                                                                    "attrs": Object {
+                                                                                                      "d": "M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z",
+                                                                                                    },
+                                                                                                    "tag": "path",
+                                                                                                  },
+                                                                                                ],
+                                                                                                "tag": "svg",
+                                                                                              },
+                                                                                              "name": "down",
+                                                                                              "theme": "outlined",
+                                                                                            }
+                                                                                          }
+                                                                                        >
+                                                                                          <svg
+                                                                                            aria-hidden="true"
+                                                                                            data-icon="down"
+                                                                                            fill="currentColor"
+                                                                                            focusable="false"
+                                                                                            height="1em"
+                                                                                            key="svg-down"
+                                                                                            viewBox="64 64 896 896"
+                                                                                            width="1em"
+                                                                                          >
+                                                                                            <path
+                                                                                              d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                                                                              key="svg-down-svg-0"
+                                                                                            />
+                                                                                          </svg>
+                                                                                        </IconReact>
+                                                                                      </span>
+                                                                                    </AntdIcon>
+                                                                                  </ForwardRef(DownOutlined)>
+                                                                                </span>
+                                                                              </div>
+                                                                            </StepHandler>
+                                                                            <div
+                                                                              className="ant-input-number-input-wrap"
+                                                                            >
+                                                                              <input
+                                                                                aria-valuenow={null}
+                                                                                autoComplete="off"
+                                                                                className="ant-input-number-input"
+                                                                                id="investAmount"
+                                                                                onChange={[Function]}
+                                                                                placeholder="Enter investment amount"
+                                                                                role="spinbutton"
+                                                                                step={1}
+                                                                                value=""
+                                                                              />
+                                                                            </div>
+                                                                          </div>
+                                                                        </InputNumber>
+                                                                      </ForwardRef>
+                                                                    </Component>
+                                                                  </div>
+                                                                </div>
+                                                                <ErrorList
+                                                                  errors={Array []}
+                                                                  onDomErrorVisibleChange={[Function]}
+                                                                >
+                                                                  <CSSMotion
+                                                                    motionAppear={true}
+                                                                    motionDeadline={500}
+                                                                    motionName="ant-show-help"
+                                                                    onLeaveEnd={[Function]}
+                                                                    removeOnLeave={true}
+                                                                    visible={false}
+                                                                  >
+                                                                    <DomWrapper />
+                                                                  </CSSMotion>
+                                                                </ErrorList>
+                                                              </div>
+                                                            </Col>
+                                                          </FormItemInput>
+                                                        </div>
+                                                      </Row>
+                                                    </Field>
+                                                  </WrapperField>
+                                                </FormItem>
+                                                <FormItem>
+                                                  <Row
+                                                    className="ant-form-item"
+                                                    key="row"
+                                                  >
+                                                    <div
+                                                      className="ant-row ant-form-item"
+                                                      style={Object {}}
+                                                    >
+                                                      <FormItemLabel
+                                                        prefixCls="ant-form"
+                                                        requiredMark={true}
+                                                      />
+                                                      <FormItemInput
+                                                        errors={Array []}
+                                                        onDomErrorVisibleChange={[Function]}
+                                                        prefixCls="ant-form"
+                                                        status=""
+                                                        validateStatus=""
+                                                      >
+                                                        <Col
+                                                          className="ant-form-item-control"
+                                                        >
+                                                          <div
+                                                            className="ant-col ant-form-item-control"
+                                                            style={Object {}}
+                                                          >
+                                                            <div
+                                                              className="ant-form-item-control-input"
+                                                            >
+                                                              <div
+                                                                className="ant-form-item-control-input-content"
+                                                              >
+                                                                <CustButton
+                                                                  text="invest"
+                                                                >
+                                                                  <div
+                                                                    className="lend-invest-btn"
+                                                                  >
+                                                                    <button>
+                                                                      invest
+                                                                    </button>
+                                                                  </div>
+                                                                </CustButton>
+                                                              </div>
+                                                            </div>
+                                                            <ErrorList
+                                                              errors={Array []}
+                                                              onDomErrorVisibleChange={[Function]}
+                                                            >
+                                                              <CSSMotion
+                                                                motionAppear={true}
+                                                                motionDeadline={500}
+                                                                motionName="ant-show-help"
+                                                                onLeaveEnd={[Function]}
+                                                                removeOnLeave={true}
+                                                                visible={false}
+                                                              >
+                                                                <DomWrapper />
+                                                              </CSSMotion>
+                                                            </ErrorList>
+                                                          </div>
+                                                        </Col>
+                                                      </FormItemInput>
+                                                    </div>
+                                                  </Row>
+                                                </FormItem>
+                                              </form>
+                                            </ForwardRef(Form)>
+                                          </SizeContextProvider>
+                                        </ForwardRef(InternalForm)>
+                                      </div>
+                                    </Item>
+                                  </div>
+                                </Space>
+                              </div>
+                            </div>
+                          </Component>
+                          <div
+                            aria-hidden="true"
+                            style={
+                              Object {
+                                "height": 0,
+                                "outline": "none",
+                                "overflow": "hidden",
+                                "width": 0,
+                              }
+                            }
+                            tabIndex={0}
+                          />
+                        </div>
+                      </DomWrapper>
+                    </CSSMotion>
+                  </Content>
+                </div>
+              </div>
+            </Dialog>
+          </Portal>
+        </ForwardRef>
+      </PortalWrapper>
+    </Dialog>
+  </Modal>
+</MakeInvestment>
+`;

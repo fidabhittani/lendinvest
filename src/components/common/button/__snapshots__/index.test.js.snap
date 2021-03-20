@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: CustButton renders correctly 1`] = `
+<div
+  className="lend-invest-btn"
+>
+  <button
+    onClick={[MockFunction]}
+  >
+    invest
+  </button>
+</div>
+`;

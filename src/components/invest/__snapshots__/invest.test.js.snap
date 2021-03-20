@@ -1,0 +1,1470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Invest renders correctly 1`] = `
+<WrapInvest>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <Invest>
+      <div
+        className="lend-invest"
+      >
+        <Card
+          className="lend-invest-item"
+          key="1"
+          title="Voluptate et sed tempora qui quisquam."
+        >
+          <div
+            className="ant-card ant-card-bordered lend-invest-item"
+          >
+            <div
+              className="ant-card-head"
+              style={Object {}}
+            >
+              <div
+                className="ant-card-head-wrapper"
+              >
+                <div
+                  className="ant-card-head-title"
+                >
+                  Voluptate et sed tempora qui quisquam.
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-card-body"
+              style={Object {}}
+            >
+              <div
+                className="lend-invest-item-list"
+              >
+                <Space
+                  direction="vertical"
+                >
+                  <div
+                    className="ant-space ant-space-vertical"
+                    style={Object {}}
+                  >
+                    <Item
+                      className="ant-space-item"
+                      direction="vertical"
+                      index={0}
+                      key="ant-space-item-0"
+                      marginDirection="marginRight"
+                      wrap={false}
+                    >
+                      <div
+                        className="ant-space-item"
+                        style={
+                          Object {
+                            "marginBottom": 8,
+                          }
+                        }
+                      >
+                        <Space>
+                          <div
+                            className="ant-space ant-space-horizontal ant-space-align-center"
+                            style={Object {}}
+                          >
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={0}
+                              key="ant-space-item-0"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={
+                                  Object {
+                                    "marginRight": 8,
+                                  }
+                                }
+                              >
+                                <Text>
+                                  <Base
+                                    component="span"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className=""
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            Amount : 
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={1}
+                              key="ant-space-item-1"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={Object {}}
+                              >
+                                <Text
+                                  type="secondary"
+                                >
+                                  <Base
+                                    component="span"
+                                    type="secondary"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className="ant-typography-secondary"
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography ant-typography-secondary"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            £ 
+                                            85,754
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                          </div>
+                        </Space>
+                      </div>
+                    </Item>
+                    <Item
+                      className="ant-space-item"
+                      direction="vertical"
+                      index={1}
+                      key="ant-space-item-1"
+                      marginDirection="marginRight"
+                      wrap={false}
+                    >
+                      <div
+                        className="ant-space-item"
+                        style={Object {}}
+                      >
+                        <Space>
+                          <div
+                            className="ant-space ant-space-horizontal ant-space-align-center"
+                            style={Object {}}
+                          >
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={0}
+                              key="ant-space-item-0"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={
+                                  Object {
+                                    "marginRight": 8,
+                                  }
+                                }
+                              >
+                                <Text>
+                                  <Base
+                                    component="span"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className=""
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            Available : 
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={1}
+                              key="ant-space-item-1"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={Object {}}
+                              >
+                                <Text
+                                  type="secondary"
+                                >
+                                  <Base
+                                    component="span"
+                                    type="secondary"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className="ant-typography-secondary"
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography ant-typography-secondary"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            £ 
+                                            11,959
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                          </div>
+                        </Space>
+                      </div>
+                    </Item>
+                  </div>
+                </Space>
+              </div>
+              <div
+                className="lend-invest-action"
+              >
+                <CustButton
+                  onClick={[Function]}
+                  text="invest"
+                >
+                  <div
+                    className="lend-invest-btn"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      invest
+                    </button>
+                  </div>
+                </CustButton>
+              </div>
+            </div>
+          </div>
+        </Card>
+        <Card
+          className="lend-invest-item"
+          key="5"
+          title="Consectetur ipsam qui magnam minus dolore ut fugit."
+        >
+          <div
+            className="ant-card ant-card-bordered lend-invest-item"
+          >
+            <div
+              className="ant-card-head"
+              style={Object {}}
+            >
+              <div
+                className="ant-card-head-wrapper"
+              >
+                <div
+                  className="ant-card-head-title"
+                >
+                  Consectetur ipsam qui magnam minus dolore ut fugit.
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-card-body"
+              style={Object {}}
+            >
+              <div
+                className="lend-invest-item-list"
+              >
+                <Space
+                  direction="vertical"
+                >
+                  <div
+                    className="ant-space ant-space-vertical"
+                    style={Object {}}
+                  >
+                    <Item
+                      className="ant-space-item"
+                      direction="vertical"
+                      index={0}
+                      key="ant-space-item-0"
+                      marginDirection="marginRight"
+                      wrap={false}
+                    >
+                      <div
+                        className="ant-space-item"
+                        style={
+                          Object {
+                            "marginBottom": 8,
+                          }
+                        }
+                      >
+                        <Space>
+                          <div
+                            className="ant-space ant-space-horizontal ant-space-align-center"
+                            style={Object {}}
+                          >
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={0}
+                              key="ant-space-item-0"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={
+                                  Object {
+                                    "marginRight": 8,
+                                  }
+                                }
+                              >
+                                <Text>
+                                  <Base
+                                    component="span"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className=""
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            Amount : 
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={1}
+                              key="ant-space-item-1"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={Object {}}
+                              >
+                                <Text
+                                  type="secondary"
+                                >
+                                  <Base
+                                    component="span"
+                                    type="secondary"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className="ant-typography-secondary"
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography ant-typography-secondary"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            £ 
+                                            85,754
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                          </div>
+                        </Space>
+                      </div>
+                    </Item>
+                    <Item
+                      className="ant-space-item"
+                      direction="vertical"
+                      index={1}
+                      key="ant-space-item-1"
+                      marginDirection="marginRight"
+                      wrap={false}
+                    >
+                      <div
+                        className="ant-space-item"
+                        style={Object {}}
+                      >
+                        <Space>
+                          <div
+                            className="ant-space ant-space-horizontal ant-space-align-center"
+                            style={Object {}}
+                          >
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={0}
+                              key="ant-space-item-0"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={
+                                  Object {
+                                    "marginRight": 8,
+                                  }
+                                }
+                              >
+                                <Text>
+                                  <Base
+                                    component="span"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className=""
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            Available : 
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={1}
+                              key="ant-space-item-1"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={Object {}}
+                              >
+                                <Text
+                                  type="secondary"
+                                >
+                                  <Base
+                                    component="span"
+                                    type="secondary"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className="ant-typography-secondary"
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography ant-typography-secondary"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            £ 
+                                            31,405
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                          </div>
+                        </Space>
+                      </div>
+                    </Item>
+                  </div>
+                </Space>
+              </div>
+              <div
+                className="lend-invest-action"
+              >
+                <CustButton
+                  onClick={[Function]}
+                  text="invest"
+                >
+                  <div
+                    className="lend-invest-btn"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      invest
+                    </button>
+                  </div>
+                </CustButton>
+              </div>
+            </div>
+          </div>
+        </Card>
+        <Card
+          className="lend-invest-item"
+          key="12"
+          title="Dolores repudiandae ut voluptas unde laborum quaerat et sapiente."
+        >
+          <div
+            className="ant-card ant-card-bordered lend-invest-item"
+          >
+            <div
+              className="ant-card-head"
+              style={Object {}}
+            >
+              <div
+                className="ant-card-head-wrapper"
+              >
+                <div
+                  className="ant-card-head-title"
+                >
+                  Dolores repudiandae ut voluptas unde laborum quaerat et sapiente.
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-card-body"
+              style={Object {}}
+            >
+              <div
+                className="lend-invest-item-list"
+              >
+                <Space
+                  direction="vertical"
+                >
+                  <div
+                    className="ant-space ant-space-vertical"
+                    style={Object {}}
+                  >
+                    <Item
+                      className="ant-space-item"
+                      direction="vertical"
+                      index={0}
+                      key="ant-space-item-0"
+                      marginDirection="marginRight"
+                      wrap={false}
+                    >
+                      <div
+                        className="ant-space-item"
+                        style={
+                          Object {
+                            "marginBottom": 8,
+                          }
+                        }
+                      >
+                        <Space>
+                          <div
+                            className="ant-space ant-space-horizontal ant-space-align-center"
+                            style={Object {}}
+                          >
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={0}
+                              key="ant-space-item-0"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={
+                                  Object {
+                                    "marginRight": 8,
+                                  }
+                                }
+                              >
+                                <Text>
+                                  <Base
+                                    component="span"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className=""
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            Amount : 
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={1}
+                              key="ant-space-item-1"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={Object {}}
+                              >
+                                <Text
+                                  type="secondary"
+                                >
+                                  <Base
+                                    component="span"
+                                    type="secondary"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className="ant-typography-secondary"
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography ant-typography-secondary"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            £ 
+                                            85,754
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                          </div>
+                        </Space>
+                      </div>
+                    </Item>
+                    <Item
+                      className="ant-space-item"
+                      direction="vertical"
+                      index={1}
+                      key="ant-space-item-1"
+                      marginDirection="marginRight"
+                      wrap={false}
+                    >
+                      <div
+                        className="ant-space-item"
+                        style={Object {}}
+                      >
+                        <Space>
+                          <div
+                            className="ant-space ant-space-horizontal ant-space-align-center"
+                            style={Object {}}
+                          >
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={0}
+                              key="ant-space-item-0"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={
+                                  Object {
+                                    "marginRight": 8,
+                                  }
+                                }
+                              >
+                                <Text>
+                                  <Base
+                                    component="span"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className=""
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            Available : 
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                            <Item
+                              className="ant-space-item"
+                              direction="horizontal"
+                              index={1}
+                              key="ant-space-item-1"
+                              marginDirection="marginRight"
+                              wrap={false}
+                            >
+                              <div
+                                className="ant-space-item"
+                                style={Object {}}
+                              >
+                                <Text
+                                  type="secondary"
+                                >
+                                  <Base
+                                    component="span"
+                                    type="secondary"
+                                  >
+                                    <LocaleReceiver
+                                      componentName="Text"
+                                    >
+                                      <ResizeObserver
+                                        disabled={true}
+                                        onResize={[Function]}
+                                      >
+                                        <Typography
+                                          className="ant-typography-secondary"
+                                          component="span"
+                                          style={
+                                            Object {
+                                              "WebkitLineClamp": undefined,
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="ant-typography ant-typography-secondary"
+                                            style={
+                                              Object {
+                                                "WebkitLineClamp": undefined,
+                                              }
+                                            }
+                                          >
+                                            £ 
+                                            12,359
+                                          </span>
+                                        </Typography>
+                                      </ResizeObserver>
+                                    </LocaleReceiver>
+                                  </Base>
+                                </Text>
+                              </div>
+                            </Item>
+                          </div>
+                        </Space>
+                      </div>
+                    </Item>
+                  </div>
+                </Space>
+              </div>
+              <div
+                className="lend-invest-action"
+              >
+                <CustButton
+                  onClick={[Function]}
+                  text="invest"
+                >
+                  <div
+                    className="lend-invest-btn"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      invest
+                    </button>
+                  </div>
+                </CustButton>
+              </div>
+            </div>
+          </div>
+        </Card>
+        <Stats
+          availableAmount={55723}
+          availablePercentage={21.660019746406387}
+          investedPercentage={78.33998025359361}
+          totalAmount={257262}
+        >
+          <Card>
+            <div
+              className="ant-card ant-card-bordered"
+            >
+              <div
+                className="ant-card-body"
+                style={Object {}}
+              >
+                <Row
+                  gutter={16}
+                >
+                  <div
+                    className="ant-row"
+                    style={
+                      Object {
+                        "marginLeft": -8,
+                        "marginRight": -8,
+                      }
+                    }
+                  >
+                    <Col
+                      span={6}
+                    >
+                      <div
+                        className="ant-col ant-col-6"
+                        style={
+                          Object {
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                          }
+                        }
+                      >
+                        <withConfigConsumer(Statistic)
+                          prefix="£"
+                          title="Available Amount for investment"
+                          value={55723}
+                          valueStyle={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <Statistic
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            prefix="£"
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            title="Available Amount for investment"
+                            value={55723}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <div
+                              className="ant-statistic"
+                            >
+                              <div
+                                className="ant-statistic-title"
+                              >
+                                Available Amount for investment
+                              </div>
+                              <Skeleton
+                                avatar={false}
+                                loading={false}
+                                paragraph={false}
+                                title={true}
+                              >
+                                <div
+                                  className="ant-statistic-content"
+                                  style={
+                                    Object {
+                                      "color": "#3f8600",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="ant-statistic-content-prefix"
+                                  >
+                                    £
+                                  </span>
+                                  <StatisticNumber
+                                    decimalSeparator="."
+                                    getPrefixCls={[Function]}
+                                    groupSeparator=","
+                                    loading={false}
+                                    prefix="£"
+                                    prefixCls="ant-statistic"
+                                    renderEmpty={[Function]}
+                                    title="Available Amount for investment"
+                                    value={55723}
+                                    valueStyle={
+                                      Object {
+                                        "color": "#3f8600",
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="ant-statistic-content-value"
+                                    >
+                                      <span
+                                        className="ant-statistic-content-value-int"
+                                        key="int"
+                                      >
+                                        55,723
+                                      </span>
+                                    </span>
+                                  </StatisticNumber>
+                                </div>
+                              </Skeleton>
+                            </div>
+                          </Statistic>
+                        </withConfigConsumer(Statistic)>
+                      </div>
+                    </Col>
+                    <Col
+                      span={6}
+                    >
+                      <div
+                        className="ant-col ant-col-6"
+                        style={
+                          Object {
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                          }
+                        }
+                      >
+                        <withConfigConsumer(Statistic)
+                          prefix="£"
+                          title="Total Amount"
+                          value={257262}
+                          valueStyle={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <Statistic
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            prefix="£"
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            title="Total Amount"
+                            value={257262}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <div
+                              className="ant-statistic"
+                            >
+                              <div
+                                className="ant-statistic-title"
+                              >
+                                Total Amount
+                              </div>
+                              <Skeleton
+                                avatar={false}
+                                loading={false}
+                                paragraph={false}
+                                title={true}
+                              >
+                                <div
+                                  className="ant-statistic-content"
+                                  style={
+                                    Object {
+                                      "color": "#3f8600",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="ant-statistic-content-prefix"
+                                  >
+                                    £
+                                  </span>
+                                  <StatisticNumber
+                                    decimalSeparator="."
+                                    getPrefixCls={[Function]}
+                                    groupSeparator=","
+                                    loading={false}
+                                    prefix="£"
+                                    prefixCls="ant-statistic"
+                                    renderEmpty={[Function]}
+                                    title="Total Amount"
+                                    value={257262}
+                                    valueStyle={
+                                      Object {
+                                        "color": "#3f8600",
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="ant-statistic-content-value"
+                                    >
+                                      <span
+                                        className="ant-statistic-content-value-int"
+                                        key="int"
+                                      >
+                                        257,262
+                                      </span>
+                                    </span>
+                                  </StatisticNumber>
+                                </div>
+                              </Skeleton>
+                            </div>
+                          </Statistic>
+                        </withConfigConsumer(Statistic)>
+                      </div>
+                    </Col>
+                    <Col
+                      span={6}
+                    >
+                      <div
+                        className="ant-col ant-col-6"
+                        style={
+                          Object {
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                          }
+                        }
+                      >
+                        <withConfigConsumer(Statistic)
+                          precision={2}
+                          suffix="%"
+                          title="Total Invested Percentage"
+                          value={78.33998025359361}
+                          valueStyle={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <Statistic
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            precision={2}
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            suffix="%"
+                            title="Total Invested Percentage"
+                            value={78.33998025359361}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <div
+                              className="ant-statistic"
+                            >
+                              <div
+                                className="ant-statistic-title"
+                              >
+                                Total Invested Percentage
+                              </div>
+                              <Skeleton
+                                avatar={false}
+                                loading={false}
+                                paragraph={false}
+                                title={true}
+                              >
+                                <div
+                                  className="ant-statistic-content"
+                                  style={
+                                    Object {
+                                      "color": "#3f8600",
+                                    }
+                                  }
+                                >
+                                  <StatisticNumber
+                                    decimalSeparator="."
+                                    getPrefixCls={[Function]}
+                                    groupSeparator=","
+                                    loading={false}
+                                    precision={2}
+                                    prefixCls="ant-statistic"
+                                    renderEmpty={[Function]}
+                                    suffix="%"
+                                    title="Total Invested Percentage"
+                                    value={78.33998025359361}
+                                    valueStyle={
+                                      Object {
+                                        "color": "#3f8600",
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="ant-statistic-content-value"
+                                    >
+                                      <span
+                                        className="ant-statistic-content-value-int"
+                                        key="int"
+                                      >
+                                        78
+                                      </span>
+                                      <span
+                                        className="ant-statistic-content-value-decimal"
+                                        key="decimal"
+                                      >
+                                        .33
+                                      </span>
+                                    </span>
+                                  </StatisticNumber>
+                                  <span
+                                    className="ant-statistic-content-suffix"
+                                  >
+                                    %
+                                  </span>
+                                </div>
+                              </Skeleton>
+                            </div>
+                          </Statistic>
+                        </withConfigConsumer(Statistic)>
+                      </div>
+                    </Col>
+                    <Col
+                      span={6}
+                    >
+                      <div
+                        className="ant-col ant-col-6"
+                        style={
+                          Object {
+                            "paddingLeft": 8,
+                            "paddingRight": 8,
+                          }
+                        }
+                      >
+                        <withConfigConsumer(Statistic)
+                          precision={2}
+                          suffix="%"
+                          title="Available Percentage"
+                          value={21.660019746406387}
+                          valueStyle={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <Statistic
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            precision={2}
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            suffix="%"
+                            title="Available Percentage"
+                            value={21.660019746406387}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <div
+                              className="ant-statistic"
+                            >
+                              <div
+                                className="ant-statistic-title"
+                              >
+                                Available Percentage
+                              </div>
+                              <Skeleton
+                                avatar={false}
+                                loading={false}
+                                paragraph={false}
+                                title={true}
+                              >
+                                <div
+                                  className="ant-statistic-content"
+                                  style={
+                                    Object {
+                                      "color": "#3f8600",
+                                    }
+                                  }
+                                >
+                                  <StatisticNumber
+                                    decimalSeparator="."
+                                    getPrefixCls={[Function]}
+                                    groupSeparator=","
+                                    loading={false}
+                                    precision={2}
+                                    prefixCls="ant-statistic"
+                                    renderEmpty={[Function]}
+                                    suffix="%"
+                                    title="Available Percentage"
+                                    value={21.660019746406387}
+                                    valueStyle={
+                                      Object {
+                                        "color": "#3f8600",
+                                      }
+                                    }
+                                  >
+                                    <span
+                                      className="ant-statistic-content-value"
+                                    >
+                                      <span
+                                        className="ant-statistic-content-value-int"
+                                        key="int"
+                                      >
+                                        21
+                                      </span>
+                                      <span
+                                        className="ant-statistic-content-value-decimal"
+                                        key="decimal"
+                                      >
+                                        .66
+                                      </span>
+                                    </span>
+                                  </StatisticNumber>
+                                  <span
+                                    className="ant-statistic-content-suffix"
+                                  >
+                                    %
+                                  </span>
+                                </div>
+                              </Skeleton>
+                            </div>
+                          </Statistic>
+                        </withConfigConsumer(Statistic)>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+            </div>
+          </Card>
+        </Stats>
+        <MakeInvestment
+          doInvestment={[Function]}
+          loan={Object {}}
+          onCancel={[Function]}
+        >
+          <Modal
+            closable={true}
+            confirmLoading={false}
+            footer={null}
+            okType="primary"
+            onCancel={[Function]}
+            title="Invest In Loan"
+            visible={false}
+            width={520}
+          >
+            <Dialog
+              closable={true}
+              closeIcon={
+                <span
+                  className="ant-modal-close-x"
+                >
+                  <ForwardRef(CloseOutlined)
+                    className="ant-modal-close-icon"
+                  />
+                </span>
+              }
+              confirmLoading={false}
+              focusTriggerAfterClose={true}
+              footer={null}
+              maskTransitionName="ant-fade"
+              okType="primary"
+              onCancel={[Function]}
+              onClose={[Function]}
+              prefixCls="ant-modal"
+              title="Invest In Loan"
+              transitionName="ant-zoom"
+              visible={false}
+              width={520}
+              wrapClassName=""
+            >
+              <PortalWrapper
+                visible={false}
+              />
+            </Dialog>
+          </Modal>
+        </MakeInvestment>
+      </div>
+    </Invest>
+  </Provider>
+</WrapInvest>
+`;

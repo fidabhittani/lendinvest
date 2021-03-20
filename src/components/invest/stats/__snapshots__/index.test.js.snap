@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Stats renders correctly 1`] = `
+<Stats
+  availableAmount={520}
+  availablePercentage={38}
+  investedPercentage={62}
+  totalAmount={380}
+>
+  <Card>
+    <div
+      className="ant-card ant-card-bordered"
+    >
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      >
+        <Row
+          gutter={16}
+        >
+          <div
+            className="ant-row"
+            style={
+              Object {
+                "marginLeft": -8,
+                "marginRight": -8,
+              }
+            }
+          >
+            <Col
+              span={6}
+            >
+              <div
+                className="ant-col ant-col-6"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                    "paddingRight": 8,
+                  }
+                }
+              >
+                <withConfigConsumer(Statistic)
+                  prefix="£"
+                  title="Available Amount for investment"
+                  value={520}
+                  valueStyle={
+                    Object {
+                      "color": "#3f8600",
+                    }
+                  }
+                >
+                  <Statistic
+                    decimalSeparator="."
+                    getPrefixCls={[Function]}
+                    groupSeparator=","
+                    loading={false}
+                    prefix="£"
+                    prefixCls="ant-statistic"
+                    renderEmpty={[Function]}
+                    title="Available Amount for investment"
+                    value={520}
+                    valueStyle={
+                      Object {
+                        "color": "#3f8600",
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-statistic"
+                    >
+                      <div
+                        className="ant-statistic-title"
+                      >
+                        Available Amount for investment
+                      </div>
+                      <Skeleton
+                        avatar={false}
+                        loading={false}
+                        paragraph={false}
+                        title={true}
+                      >
+                        <div
+                          className="ant-statistic-content"
+                          style={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <span
+                            className="ant-statistic-content-prefix"
+                          >
+                            £
+                          </span>
+                          <StatisticNumber
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            prefix="£"
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            title="Available Amount for investment"
+                            value={520}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <span
+                              className="ant-statistic-content-value"
+                            >
+                              <span
+                                className="ant-statistic-content-value-int"
+                                key="int"
+                              >
+                                520
+                              </span>
+                            </span>
+                          </StatisticNumber>
+                        </div>
+                      </Skeleton>
+                    </div>
+                  </Statistic>
+                </withConfigConsumer(Statistic)>
+              </div>
+            </Col>
+            <Col
+              span={6}
+            >
+              <div
+                className="ant-col ant-col-6"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                    "paddingRight": 8,
+                  }
+                }
+              >
+                <withConfigConsumer(Statistic)
+                  prefix="£"
+                  title="Total Amount"
+                  value={380}
+                  valueStyle={
+                    Object {
+                      "color": "#3f8600",
+                    }
+                  }
+                >
+                  <Statistic
+                    decimalSeparator="."
+                    getPrefixCls={[Function]}
+                    groupSeparator=","
+                    loading={false}
+                    prefix="£"
+                    prefixCls="ant-statistic"
+                    renderEmpty={[Function]}
+                    title="Total Amount"
+                    value={380}
+                    valueStyle={
+                      Object {
+                        "color": "#3f8600",
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-statistic"
+                    >
+                      <div
+                        className="ant-statistic-title"
+                      >
+                        Total Amount
+                      </div>
+                      <Skeleton
+                        avatar={false}
+                        loading={false}
+                        paragraph={false}
+                        title={true}
+                      >
+                        <div
+                          className="ant-statistic-content"
+                          style={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <span
+                            className="ant-statistic-content-prefix"
+                          >
+                            £
+                          </span>
+                          <StatisticNumber
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            prefix="£"
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            title="Total Amount"
+                            value={380}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <span
+                              className="ant-statistic-content-value"
+                            >
+                              <span
+                                className="ant-statistic-content-value-int"
+                                key="int"
+                              >
+                                380
+                              </span>
+                            </span>
+                          </StatisticNumber>
+                        </div>
+                      </Skeleton>
+                    </div>
+                  </Statistic>
+                </withConfigConsumer(Statistic)>
+              </div>
+            </Col>
+            <Col
+              span={6}
+            >
+              <div
+                className="ant-col ant-col-6"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                    "paddingRight": 8,
+                  }
+                }
+              >
+                <withConfigConsumer(Statistic)
+                  precision={2}
+                  suffix="%"
+                  title="Total Invested Percentage"
+                  value={62}
+                  valueStyle={
+                    Object {
+                      "color": "#3f8600",
+                    }
+                  }
+                >
+                  <Statistic
+                    decimalSeparator="."
+                    getPrefixCls={[Function]}
+                    groupSeparator=","
+                    loading={false}
+                    precision={2}
+                    prefixCls="ant-statistic"
+                    renderEmpty={[Function]}
+                    suffix="%"
+                    title="Total Invested Percentage"
+                    value={62}
+                    valueStyle={
+                      Object {
+                        "color": "#3f8600",
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-statistic"
+                    >
+                      <div
+                        className="ant-statistic-title"
+                      >
+                        Total Invested Percentage
+                      </div>
+                      <Skeleton
+                        avatar={false}
+                        loading={false}
+                        paragraph={false}
+                        title={true}
+                      >
+                        <div
+                          className="ant-statistic-content"
+                          style={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <StatisticNumber
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            precision={2}
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            suffix="%"
+                            title="Total Invested Percentage"
+                            value={62}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <span
+                              className="ant-statistic-content-value"
+                            >
+                              <span
+                                className="ant-statistic-content-value-int"
+                                key="int"
+                              >
+                                62
+                              </span>
+                              <span
+                                className="ant-statistic-content-value-decimal"
+                                key="decimal"
+                              >
+                                .00
+                              </span>
+                            </span>
+                          </StatisticNumber>
+                          <span
+                            className="ant-statistic-content-suffix"
+                          >
+                            %
+                          </span>
+                        </div>
+                      </Skeleton>
+                    </div>
+                  </Statistic>
+                </withConfigConsumer(Statistic)>
+              </div>
+            </Col>
+            <Col
+              span={6}
+            >
+              <div
+                className="ant-col ant-col-6"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                    "paddingRight": 8,
+                  }
+                }
+              >
+                <withConfigConsumer(Statistic)
+                  precision={2}
+                  suffix="%"
+                  title="Available Percentage"
+                  value={38}
+                  valueStyle={
+                    Object {
+                      "color": "#3f8600",
+                    }
+                  }
+                >
+                  <Statistic
+                    decimalSeparator="."
+                    getPrefixCls={[Function]}
+                    groupSeparator=","
+                    loading={false}
+                    precision={2}
+                    prefixCls="ant-statistic"
+                    renderEmpty={[Function]}
+                    suffix="%"
+                    title="Available Percentage"
+                    value={38}
+                    valueStyle={
+                      Object {
+                        "color": "#3f8600",
+                      }
+                    }
+                  >
+                    <div
+                      className="ant-statistic"
+                    >
+                      <div
+                        className="ant-statistic-title"
+                      >
+                        Available Percentage
+                      </div>
+                      <Skeleton
+                        avatar={false}
+                        loading={false}
+                        paragraph={false}
+                        title={true}
+                      >
+                        <div
+                          className="ant-statistic-content"
+                          style={
+                            Object {
+                              "color": "#3f8600",
+                            }
+                          }
+                        >
+                          <StatisticNumber
+                            decimalSeparator="."
+                            getPrefixCls={[Function]}
+                            groupSeparator=","
+                            loading={false}
+                            precision={2}
+                            prefixCls="ant-statistic"
+                            renderEmpty={[Function]}
+                            suffix="%"
+                            title="Available Percentage"
+                            value={38}
+                            valueStyle={
+                              Object {
+                                "color": "#3f8600",
+                              }
+                            }
+                          >
+                            <span
+                              className="ant-statistic-content-value"
+                            >
+                              <span
+                                className="ant-statistic-content-value-int"
+                                key="int"
+                              >
+                                38
+                              </span>
+                              <span
+                                className="ant-statistic-content-value-decimal"
+                                key="decimal"
+                              >
+                                .00
+                              </span>
+                            </span>
+                          </StatisticNumber>
+                          <span
+                            className="ant-statistic-content-suffix"
+                          >
+                            %
+                          </span>
+                        </div>
+                      </Skeleton>
+                    </div>
+                  </Statistic>
+                </withConfigConsumer(Statistic)>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </div>
+  </Card>
+</Stats>
+`;

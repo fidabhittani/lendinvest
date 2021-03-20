@@ -87,7 +87,6 @@ const Invest = () => {
         loan={activeLoan}
         onCancel={() => setActiveLoan({})}
         doInvestment={doInvestment}
-        onFinish={doInvestment}
       />
     </div>
   );
