@@ -9,11 +9,9 @@ import "./index.css";
 
 const WrapApp = () => {
   return (
-    <React.StrictMode>
-      <Provider store={store}>
-        <App />
-      </Provider>
-    </React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
   );
 };
 

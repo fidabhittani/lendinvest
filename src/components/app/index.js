@@ -6,7 +6,7 @@ import "./index.css";
 const App = () => {
   return (
     <div className="lendinvest-app">
-      <PageHeader title="LendInvest Assignment" />
+      <PageHeader title="Current Loans" />
       <Invest />
     </div>
   );

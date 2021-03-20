@@ -3,8 +3,8 @@
     width: 100%;
     justify-content: center;
     flex-direction: column;
+    max-width: 1000px;
 
-    padding: 10px 10em;
 }
 
 .lend-invest > .lend-invest-item{
@@ -18,3 +18,7 @@
     bottom: 20px;
 }
 
+.lendinvest-input{
+    height: 48px;
+    line-height: 48px  !important;
+}
