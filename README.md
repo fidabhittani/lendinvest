@@ -1,2 +1,2 @@
 # lendinvest
-Simple React POC
+Simple React POC for LendInvest 
